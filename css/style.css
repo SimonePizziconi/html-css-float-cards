@@ -21,10 +21,19 @@
     content: "";
 }
 
+body{
+    font-family: Fredoka, sans-serif;
+}
+
 /* css header */
 
 header{
     text-align: center;
+}
+
+h1{
+    color: #e53170;
+    margin-bottom: 50px;
 }
 
 /* css main */
@@ -36,13 +45,31 @@ section{
 .card {
     width: calc(100% / 3 - 40px);
     height: 100px;
-    background-color: rgb(19, 59, 95);
+    background-color: #13263a;
     float: left;
     margin: 0 20px;
+    box-shadow: 5px 5px 5px #dedede;
 }
 
 img {
     height: 100px;
     width: auto;
     float: left;
+    margin-right: 10px;
 }
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+span {
+    color: #fff;
+}
+
+address {
+    margin-top: 5px;
+    color: #53adc9;
+}
+
