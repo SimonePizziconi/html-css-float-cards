@@ -9,7 +9,7 @@
     margin: 20px auto;
 }
 
-.raw::after {
+.row::after {
     display: table;
     clear: both;
     content: "";
