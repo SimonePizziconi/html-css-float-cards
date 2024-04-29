@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.raw::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.card::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+/* css header */
+
+header{
+    text-align: center;
+}
+
+/* css main */
+
+section{
+    margin-top: 50px;
+}
+
+.card {
+    width: calc(100% / 3 - 40px);
+    height: 100px;
+    background-color: rgb(19, 59, 95);
+    float: left;
+    margin: 0 20px;
+}
+
+img {
+    height: 100px;
+    width: auto;
+    float: left;
+}
